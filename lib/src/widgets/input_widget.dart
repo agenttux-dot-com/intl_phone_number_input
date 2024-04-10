@@ -396,7 +396,16 @@ class _InputWidgetView
         crossAxisAlignment: CrossAxisAlignment.center,
         children: <Widget>[
           if (!widget.selectorConfig.setSelectorButtonAsPrefixIcon) ...[
-            Column(
+            Container(
+              height: 55,
+              decoration: BoxDecoration(
+                color: Color(0XFFf3f3f3),
+                border: Border.all(
+                  color: Color(0XFFf3f3f3),
+                ),
+                borderRadius: BorderRadius.circular(8),
+              ),
+              child: Column(
               mainAxisSize: MainAxisSize.min,
               children: <Widget>[
                 SelectorButton(
@@ -416,6 +425,7 @@ class _InputWidgetView
                 ),
               ],
             ),
+              ),
             SizedBox(width: widget.spaceBetweenSelectorAndTextField),
           ],
           Flexible(
