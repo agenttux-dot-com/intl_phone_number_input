@@ -397,7 +397,7 @@ class _InputWidgetView
         children: <Widget>[
           if (!widget.selectorConfig.setSelectorButtonAsPrefixIcon) ...[
             Container(
-              height: 60,
+              height: 70,
               decoration: BoxDecoration(
                 color: Color(0XFFf3f3f3),
                 border: Border.all(
