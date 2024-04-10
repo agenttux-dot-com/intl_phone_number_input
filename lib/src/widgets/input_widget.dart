@@ -399,6 +399,7 @@ class _InputWidgetView
           if (!widget.selectorConfig.setSelectorButtonAsPrefixIcon) ...[
             Container(
               height: 70,
+              padding: const EdgeInsets.all(0),
               decoration: BoxDecoration(
                 color: Color(0XFFf3f3f3),
                 border: Border.all(
