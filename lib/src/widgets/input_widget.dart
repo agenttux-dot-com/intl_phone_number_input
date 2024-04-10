@@ -391,6 +391,7 @@ class _InputWidgetView
     final dialCode = state.country?.dialCode ?? '';
 
     return Container(
+      height: 70,
       child: Row(
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.center,
